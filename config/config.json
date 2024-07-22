@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "resource-hub-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/resourceHub/ResourceHubWebPart.js",
+          "manifest": "./src/webparts/resourceHub/ResourceHubWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ResourceHubWebPartStrings": "lib/webparts/resourceHub/loc/{locale}.js"
+  }
+}
